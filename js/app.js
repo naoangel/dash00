@@ -184,8 +184,28 @@ btn.addEventListener('click', function()
 
 
 
+
 	//EL % DE ESTUDIANTES SATISFECHAS CON LABORATORIA
 	//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+      var totalStudents = 100;
+      var satisfied = []
+      var satsprint1 = data.AQP['2016-2'].ratings[i].sprints[0].object;
+      var satsprint2 = data.AQP['2016-2'].ratings[i].sprints[1].object;
+      var satsprint3 = data.AQP['2016-2'].ratings[i].sprints[2].object;
+      var satsprint1 = data.AQP['2016-2'].ratings[i].sprints[3].object;
+      var sprint = data.AQP['2016-2'].students[i].sprints;
+       
+       for(i=0; i< data.AQP[2016-2].ratings.length; i++){
+                
+
+       }
+
+   		
+
+
+
+
 
 
 
